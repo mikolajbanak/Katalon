@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestAllCollection" time="48.914" tests="6" failures="0" errors="0">
+   <testsuite name="TestSuite" tests="1" failures="0" errors="0" time="8.22" skipped="0" timestamp="2023-06-24 19:35:53" hostname="mbana - host.docker.internal" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mbana\\git\\Katalon\\Reports\\20230624_193546\\TestSuite\\20230624_193547"/>
+         <property name="logFiles" value="C:\\Users\\mbana\\git\\Katalon\\Reports\\20230624_193546\\TestSuite\\20230624_193547\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mbana - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.94"/>
+         <property name="sessionId" value="3a90642ae875fa766a41692716c902ca"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="7.971" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2023-06-24 19:35:53 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2023-06-24 19:35:53 - [TEST_STEP][PASSED] - com.LoginTestKey.LoginTestK(): com.LoginTestKey.LoginTestK is PASSED
+
+2023-06-24 19:35:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-24 19:35:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-24 19:35:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-24 19:35:57 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 19:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/InkMakeAppointment' is clicked on
+
+2023-06-24 19:35:59 - [MESSAGE][PASSED] - Text '********' is set on object 'Object Repository/KatalonDemo/inputUsername'
+
+2023-06-24 19:36:00 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/KatalonDemo/inputPassword'
+
+2023-06-24 19:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/button_Login' is clicked on
+
+2023-06-24 19:36:00 - [MESSAGE][PASSED] - com.LoginTestKey.LoginTestK is PASSED
+
+2023-06-24 19:36:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-24 19:36:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-24 19:35:53 - [TEST_SUITE][PASSED] - TestSuite: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TestAll" tests="5" failures="0" errors="0" time="34.283" skipped="0" timestamp="2023-06-24 19:36:04" hostname="mbana - host.docker.internal" id="Test Suites/TestAll">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mbana\\git\\Katalon\\Reports\\20230624_193546\\TestAll\\20230624_193549"/>
+         <property name="logFiles" value="C:\\Users\\mbana\\git\\Katalon\\Reports\\20230624_193546\\TestAll\\20230624_193549\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mbana - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.94"/>
+         <property name="sessionId" value="3165f55a4d8129b028e617368625df87"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Keywords" time="13.986" classname="Test Cases/Keywords" status="PASSED">
+         <system-out><![CDATA[2023-06-24 19:36:04 - [TEST_CASE][PASSED] - Test Cases/Keywords: Test Cases/Keywords
+
+2023-06-24 19:36:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-24 19:36:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-24 19:36:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-24 19:36:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-24 19:36:07 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 19:36:09 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 19:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KatalonDemo/InkMakeAppointment")): Object: 'Object Repository/KatalonDemo/InkMakeAppointment' is clicked on
+
+2023-06-24 19:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/InkMakeAppointment' is clicked on
+
+2023-06-24 19:36:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KatalonDemo/inputUsername"), Username): Text 'John Doe' is set on object 'Object Repository/KatalonDemo/inputUsername'
+
+2023-06-24 19:36:10 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/KatalonDemo/inputUsername'
+
+2023-06-24 19:36:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KatalonDemo/inputPassword"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/KatalonDemo/inputPassword'
+
+2023-06-24 19:36:11 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/KatalonDemo/inputPassword'
+
+2023-06-24 19:36:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KatalonDemo/button_Login")): Object: 'Object Repository/KatalonDemo/button_Login' is clicked on
+
+2023-06-24 19:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/button_Login' is clicked on
+
+2023-06-24 19:36:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/KatalonDemo/SelectFacility"), "Seoul CURA Healthcare Center", true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/KatalonDemo/SelectFacility'  using regular expression
+
+2023-06-24 19:36:13 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/KatalonDemo/SelectFacility'  using regular expression
+
+2023-06-24 19:36:13 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/KatalonDemo/input_Apply for hospital readmission_hospit_63901f")): Object 'Object Repository/KatalonDemo/input_Apply for hospital readmission_hospit_63901f' is checked
+
+2023-06-24 19:36:13 - [MESSAGE][PASSED] - Object 'Object Repository/KatalonDemo/input_Apply for hospital readmission_hospit_63901f' is checked
+
+2023-06-24 19:36:13 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/KatalonDemo/label_Medicaid")): Object 'Object Repository/KatalonDemo/label_Medicaid' is checked
+
+2023-06-24 19:36:13 - [MESSAGE][PASSED] - Object 'Object Repository/KatalonDemo/label_Medicaid' is checked
+
+2023-06-24 19:36:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KatalonDemo/input_Visit Date (Required)_visit_date"), "26.06.2023"): Text '26.06.2023' is set on object 'Object Repository/KatalonDemo/input_Visit Date (Required)_visit_date'
+
+2023-06-24 19:36:14 - [MESSAGE][PASSED] - Text '26.06.2023' is set on object 'Object Repository/KatalonDemo/input_Visit Date (Required)_visit_date'
+
+2023-06-24 19:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KatalonDemo/td_26")): Object: 'Object Repository/KatalonDemo/td_26' is clicked on
+
+2023-06-24 19:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/td_26' is clicked on
+
+2023-06-24 19:36:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KatalonDemo/textarea_Comment_comment"), "TestComment"): Text 'TestComment' is set on object 'Object Repository/KatalonDemo/textarea_Comment_comment'
+
+2023-06-24 19:36:15 - [MESSAGE][PASSED] - Text 'TestComment' is set on object 'Object Repository/KatalonDemo/textarea_Comment_comment'
+
+2023-06-24 19:36:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KatalonDemo/button_Book Appointment")): Object: 'Object Repository/KatalonDemo/button_Book Appointment' is clicked on
+
+2023-06-24 19:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/button_Book Appointment' is clicked on
+
+2023-06-24 19:36:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KatalonDemo/h2_Appointment Confirmation")): Object: 'Object Repository/KatalonDemo/h2_Appointment Confirmation' is clicked on
+
+2023-06-24 19:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/h2_Appointment Confirmation' is clicked on
+
+2023-06-24 19:36:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KatalonDemo/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/KatalonDemo/a_CURA Healthcare_menu-toggle' is clicked on
+
+2023-06-24 19:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/a_CURA Healthcare_menu-toggle' is clicked on
+
+2023-06-24 19:36:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KatalonDemo/Logout")): Object: 'Object Repository/KatalonDemo/Logout' is clicked on
+
+2023-06-24 19:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/Logout' is clicked on
+
+2023-06-24 19:36:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-24 19:36:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lists Tests" time="5.594" classname="Test Cases/Lists Tests" status="PASSED">
+         <system-out><![CDATA[2023-06-24 19:36:18 - [TEST_CASE][PASSED] - Test Cases/Lists Tests: Test Cases/Lists Tests
+
+2023-06-24 19:36:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-24 19:36:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-24 19:36:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-24 19:36:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-24 19:36:20 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 19:36:21 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 19:36:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KatalonDemo/InkMakeAppointment")): Object: 'Object Repository/KatalonDemo/InkMakeAppointment' is clicked on
+
+2023-06-24 19:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/InkMakeAppointment' is clicked on
+
+2023-06-24 19:36:22 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Object Repository/KatalonDemo/inputUsername"), ListCredentials.get(1)): Text '********' is set on object 'Object Repository/KatalonDemo/inputUsername'
+
+2023-06-24 19:36:22 - [MESSAGE][PASSED] - Text '********' is set on object 'Object Repository/KatalonDemo/inputUsername'
+
+2023-06-24 19:36:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KatalonDemo/inputPassword"), ListCredentials.get(0)): Text 'ThisIsNotAPassword' is set on object 'Object Repository/KatalonDemo/inputPassword'
+
+2023-06-24 19:36:23 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/KatalonDemo/inputPassword'
+
+2023-06-24 19:36:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KatalonDemo/button_Login")): Object: 'Object Repository/KatalonDemo/button_Login' is clicked on
+
+2023-06-24 19:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="7.262" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2023-06-24 19:36:24 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2023-06-24 19:36:24 - [TEST_STEP][PASSED] - com.LoginTestKey.LoginTestK(): com.LoginTestKey.LoginTestK is PASSED
+
+2023-06-24 19:36:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-06-24 19:36:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-24 19:36:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-24 19:36:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-24 19:36:27 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 19:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/InkMakeAppointment' is clicked on
+
+2023-06-24 19:36:29 - [MESSAGE][PASSED] - Text '********' is set on object 'Object Repository/KatalonDemo/inputUsername'
+
+2023-06-24 19:36:30 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/KatalonDemo/inputPassword'
+
+2023-06-24 19:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/button_Login' is clicked on
+
+2023-06-24 19:36:30 - [MESSAGE][PASSED] - com.LoginTestKey.LoginTestK is PASSED
+
+2023-06-24 19:36:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-24 19:36:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MapTests" time="6.746" classname="Test Cases/MapTests" status="PASSED">
+         <system-out><![CDATA[2023-06-24 19:36:31 - [TEST_CASE][PASSED] - Test Cases/MapTests: Test Cases/MapTests
+
+2023-06-24 19:36:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-24 19:36:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-24 19:36:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-24 19:36:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-24 19:36:33 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 19:36:35 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 19:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KatalonDemo/InkMakeAppointment")): Object: 'Object Repository/KatalonDemo/InkMakeAppointment' is clicked on
+
+2023-06-24 19:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/InkMakeAppointment' is clicked on
+
+2023-06-24 19:36:35 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Object Repository/KatalonDemo/inputUsername"), MapCredentials.get("Username")): Text '********' is set on object 'Object Repository/KatalonDemo/inputUsername'
+
+2023-06-24 19:36:36 - [MESSAGE][PASSED] - Text '********' is set on object 'Object Repository/KatalonDemo/inputUsername'
+
+2023-06-24 19:36:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KatalonDemo/inputPassword"), MapCredentials.get("Password")): Text 'ThisIsNotAPassword' is set on object 'Object Repository/KatalonDemo/inputPassword'
+
+2023-06-24 19:36:37 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/KatalonDemo/inputPassword'
+
+2023-06-24 19:36:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KatalonDemo/button_Login")): Object: 'Object Repository/KatalonDemo/button_Login' is clicked on
+
+2023-06-24 19:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonDemo/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestVar" time="0.396" classname="Test Cases/TestVar" status="PASSED">
+         <system-out><![CDATA[2023-06-24 19:36:38 - [TEST_CASE][PASSED] - Test Cases/TestVar: Test Cases/TestVar
+
+2023-06-24 19:36:38 - [TEST_STEP][PASSED] - str = "Print this text": null
+
+2023-06-24 19:36:38 - [TEST_STEP][PASSED] - i = 20: null
+
+2023-06-24 19:36:38 - [TEST_STEP][PASSED] - j = 10: null
+
+2023-06-24 19:36:38 - [TEST_STEP][PASSED] - sum = i + j: null
+
+2023-06-24 19:36:38 - [TEST_STEP][PASSED] - println(str): null
+
+2023-06-24 19:36:38 - [TEST_STEP][PASSED] - println(sum): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-24 19:36:04 - [TEST_SUITE][PASSED] - TestAll: Test Cases/TestVar]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FailedTest,Chrome 114.0.0.0,,,2023-06-24 19:40:47,2023-06-24 19:42:54,"2m - 7,301s",FAILED
+,,,,,,,
+Test Cases/FailedTestToCheckJiraIntegration,Chrome 114.0.0.0,,,2023-06-24 19:42:12,2023-06-24 19:42:54,"42,038s",FAILED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-24 19:42:12,2023-06-24 19:42:14,"2,240s",PASSED
+navigateToUrl(URL),Chrome 114.0.0.0,,,2023-06-24 19:42:14,2023-06-24 19:42:16,"1,358s",PASSED
+"click(findTestObject(""Object Repository/KatalonDemo/InkMakeAppointment""))",Chrome 114.0.0.0,,,2023-06-24 19:42:16,2023-06-24 19:42:16,"0,615s",PASSED
+"setText(findTestObject(""Object Repository/KatalonDemo/inputUsername""), ""InvalidUserName"")",Chrome 114.0.0.0,,,2023-06-24 19:42:16,2023-06-24 19:42:17,"0,715s",PASSED
+"setText(findTestObject(""Object Repository/KatalonDemo/inputPassword""), ""Invalid Password"")",Chrome 114.0.0.0,,,2023-06-24 19:42:17,2023-06-24 19:42:18,"0,753s",PASSED
+"click(findTestObject(""Object Repository/KatalonDemo/button_Login""))",Chrome 114.0.0.0,,,2023-06-24 19:42:18,2023-06-24 19:42:19,"1,019s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/KatalonDemo/SelectFacility""), ""Seoul CURA Healthcare Center"", true)",Chrome 114.0.0.0,,,2023-06-24 19:42:19,2023-06-24 19:42:54,"35,330s",FAILED

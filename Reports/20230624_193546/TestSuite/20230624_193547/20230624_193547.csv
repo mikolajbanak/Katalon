@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite,Chrome 114.0.0.0,,,2023-06-24 19:35:53,2023-06-24 19:36:01,"8,220s",PASSED
+,,,,,,,
+Test Cases/Login,Chrome 114.0.0.0,,,2023-06-24 19:35:53,2023-06-24 19:36:01,"7,971s",PASSED
+com.LoginTestKey.LoginTestK(),Chrome 114.0.0.0,,,2023-06-24 19:35:53,2023-06-24 19:36:00,"6,838s",PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-24 19:36:00,2023-06-24 19:36:01,"0,757s",PASSED
